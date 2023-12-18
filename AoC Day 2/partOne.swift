@@ -5,6 +5,7 @@
 //  Created by Tejas Patel on 12/2/23.
 //
 
+
 import Foundation
 var count: Int = 0
 func printLine(i:Int64) -> String {
@@ -26,6 +27,32 @@ for i in 0...99 {
         else {count += (i + 1)}
     
 }
-
 print(count)
 //testing pushes
+ // Part 1
+
+/*import Foundation
+var count: Int = 0
+
+func printLine(i:Int64) -> String {
+    do {
+        let contents = try String(contentsOfFile: "/Users/tejaspatel/Desktop/Programming Projects/AoC Day 2/AoC Day 2/games.txt")
+        let lines = contents.split(separator: "\n")
+        return String(lines[Int(i)])
+        
+    } catch {
+        return "An error occurred while reading the file."
+    }
+}
+//find impossible games
+for i in 0...99 {
+    var x: String = (printLine(i: Int64(i)))
+    x = x.replacingOccurrences(of: ";", with: "")
+    var dataArray = x.components(separatedBy: " ")
+  print(dataArray)
+    
+}
+
+print(count)
+
+*/
