@@ -1,9 +1,8 @@
 //
-//  part2.swift
+//  output.txt
 //  AoC Day 1
 //
 //  Created by Tejas Patel on 12/17/23.
 //
 
-
-
+import Foundation
